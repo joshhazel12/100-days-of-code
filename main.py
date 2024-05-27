@@ -28,7 +28,7 @@ pip3 install -r requirements.txt
 This will install the packages from the requirements.txt for this project.
 '''
 
-
+# Flask key = 4c0bc538a8f5dd6c63b8d43addbe5994
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('FLASK_KEY')
 ckeditor = CKEditor(app)
